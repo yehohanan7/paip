@@ -1,0 +1,6 @@
+(in-package #:cl-user)
+(ql:quickload :prove)
+(ql:quickload :paip)
+(setf prove:*enable-colors* t)
+(prove:run :paip-test)
+(quit)
